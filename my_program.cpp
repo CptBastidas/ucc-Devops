@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <getch.h>
+#include <iostream>
 
 using namespace std;
 
@@ -16,7 +16,7 @@ int main() {
 	}
 	cout << " el resultado es: " << icontador;
 
-	getch();
+     	getch();
 
 	return 0;
 }		
