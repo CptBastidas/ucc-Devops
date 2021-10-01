@@ -8,3 +8,4 @@ again de porcess for conneccion by ssh
 cambio 
 2 cambion
 3 cambio con otra llave al mismo git
+4 cambio borre la segunda llave 
