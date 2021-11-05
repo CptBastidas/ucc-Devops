@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+#include <iostream>
+#include <unistd.h>
+using namespace std;
+
+int main() {
+
+	int ivalor = 20;
+	int icontador = 0;
+	int i = 0;
+	double dsleep =0;
+
+	cout << "+-------------------------------------------------------------+\n";
+
+	for (i= 1;i<= ivalor; i++ ) {
+		icontador+=1;
+		dsleep=1-(1/i);
+		cout << " ciclo for i " << i "contador =" <<icontador << "sleep" <<dsleep << endl;
+		sleep(dsleep);
+	}
+
+	cout <<"+--------------------------------------------------------------+"
+	return = 0;
+}

@@ -79,11 +79,10 @@ int main() {
 	    cout << "\n";
             int main(int argc,char const *argv[]);
         {
-            double numero = 0;
+            double numero= vf_area;
             double RaizCuadrada = sqrt(vf_area);
-
             cout << "la raiz cuadrada es => " << numero << RaizCuadrada;
-	    cout << "\n";
+            cout << "\n"
 	    cout << "La area es => " << vf_area << endl;
 
 	// archivo funcion
